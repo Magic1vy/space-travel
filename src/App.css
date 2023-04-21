@@ -682,6 +682,7 @@ width: 100%;
   }
   .home-btn-explore:hover{
   outline: 35px solid #24262F;
+    border-radius: 50%;
   }
   .menu-number{
   font-size: 16px;
