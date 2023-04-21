@@ -124,7 +124,6 @@ body{
 }
 .home-btn-explore:hover{
   outline: 64px solid #24262F;
-  border-radius: 50%;
 } 
 .destinationComponent{
   background-image: url("/src/assets/destination/background-destination-desktop.jpg"); 
@@ -366,7 +365,7 @@ height: 600px;
   display: none;
 }
 .cartComponent{
-  background: url("https://images.unsplash.com/photo-1514483127413-f72f273478c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80") no-repeat center center ;
+  background: url("./assets/destination/background-destination-desktop.jpg") no-repeat top center ;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -681,7 +680,7 @@ width: 100%;
   font-size: 20px;
   }
   .home-btn-explore:hover{
-  outline: none;
+  outline: 35px solid #24262F;
   }
   .menu-number{
   font-size: 16px;
@@ -714,9 +713,7 @@ width: 100%;
     width: 80%;
 }
 .crew-slide-image{
-  height: 223px;
-    width: 327px;
-  bottom: 0;
+  height: 400px;
 }
 .carousel .control-dots {
   top: 300px;
@@ -779,7 +776,7 @@ width: 100%;
   width: 100%;
   margin-left: 6px;
 }
-  .link:active {
-  text-decoration: none;
+.home-btn-explore:hover{
+  outline: none;
 }
 }
