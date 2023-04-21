@@ -715,6 +715,7 @@ width: 100%;
 }
 .crew-slide-image{
   height: 250px;
+  bottom: 0;
 }
 .carousel .control-dots {
   top: 300px;
