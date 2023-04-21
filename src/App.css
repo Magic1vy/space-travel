@@ -124,6 +124,7 @@ body{
 }
 .home-btn-explore:hover{
   outline: 64px solid #24262F;
+  border-radius: 50%;
 } 
 .destinationComponent{
   background-image: url("/src/assets/destination/background-destination-desktop.jpg"); 
