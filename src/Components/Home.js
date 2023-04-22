@@ -5,6 +5,7 @@ function Home () {
     const navigate = useNavigate()
 
     return(
+        <>
 <div className="home-component">
 <main className="home-main">
     <section className="home-section-text">
@@ -19,6 +20,7 @@ function Home () {
     </section>
 </main>
 </div>
+</>
     )
 }
 export default Home;
