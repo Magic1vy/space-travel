@@ -9,7 +9,7 @@ const VerticalSlider = () => {
   };
 
   return (
-    <div >
+    < >
     <div className="slider-container">
         <h5 className="slider-title headingFive"> <span className="menu-number">03</span> SPACE LAUNCH 101</h5>
       <div className="container-technology">
@@ -38,7 +38,7 @@ const VerticalSlider = () => {
         </div>
       </div>
       </div>
-    </div>
+    </>
   );
 };
 
