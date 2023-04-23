@@ -40,6 +40,7 @@ const handleClick = () => {
   const selectedDestination = data[activeSlide];
 
   return (
+    <>
     <div className="slider-destination">
       <h5 className="slider-title headingFive"><span className="menu-number">01</span> Pick your destination</h5>
       <div className="slider-content-destination">
@@ -84,6 +85,7 @@ const handleClick = () => {
         </div>
       </div>
     </div>
+</>
   );
 };
 
