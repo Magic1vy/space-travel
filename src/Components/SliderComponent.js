@@ -5,6 +5,7 @@ import slidesData from "../data/slidesData";
 
 const SliderComponent = () => {
   return (
+    <>
     <div className="slider-container">
       <h5 className="slider-title headingFive"  > <span className="menu-number">02</span> MEET YOUR CREW</h5>
       <Carousel
@@ -28,6 +29,7 @@ const SliderComponent = () => {
         ))}
       </Carousel>
     </div>
+</>
   );
 
 };
