@@ -67,7 +67,6 @@ body{
 .home-main{
   display: flex;
   margin-top: 300px;
- 
 }
 .home-section-text, .home-section-explore{
   display: flex;
@@ -122,13 +121,10 @@ body{
   color: #0B0D17;
   border: none;
   position: relative;
-  transition: background-color 0.5s ease-in-out;
+  transition: outline 0.5s linear;
 }
 .home-btn-explore:hover{
   outline: 64px solid rgba(255, 255, 255, 0.196);
-  backdrop-filter: blur(40.7742px);
-  transform: scale(1.1);
-
 } 
 .destinationComponent{
   background-image: url("/src/assets/destination/background-destination-desktop.jpg"); 
