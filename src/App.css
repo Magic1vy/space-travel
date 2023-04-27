@@ -67,7 +67,7 @@ body{
 .home-main{
   display: flex;
   margin-top: 300px;
-  min-height: 100vh;
+ 
 }
 .home-section-text, .home-section-explore{
   display: flex;
