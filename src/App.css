@@ -124,7 +124,7 @@ body{
   position: relative;
 }
 .home-btn-explore:hover{
-  outline: 64px solid rgba(255, 255, 255, 0.04);;
+  outline: 64px solid rgba(255, 255, 255, 0.196);
   backdrop-filter: blur(40.7742px);
 } 
 .destinationComponent{
