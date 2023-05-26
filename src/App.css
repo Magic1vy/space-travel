@@ -778,3 +778,8 @@ width: 100%;
 .home-btn-explore:hover{
   outline: none;
 }
+  .crew-slide-image{
+  object-fit: contain;
+}
+
+}
