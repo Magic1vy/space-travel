@@ -781,5 +781,8 @@ width: 100%;
   .crew-slide-image{
   object-fit: contain;
 }
+  .link:active {
+  text-underline-offset: 10px;
+}
 
 }
