@@ -14,7 +14,7 @@ body{
   left: 0;
   right: 0;
   bottom: 0;
-  height: 100vh;
+  min-height: 100vh;
 }
 .desktop-nav{
   position: fixed; 
@@ -125,8 +125,7 @@ body{
   transition: outline 0.5s linear;
 }
 .home-btn-explore:hover{
-  outline: 64px solid rgba(255, 255, 255, 0.196);
-
+  outline: 64px solid #24262F;
 } 
 .destinationComponent{
   background-image: url("/src/assets/destination/background-destination-desktop.jpg"); 
@@ -137,14 +136,14 @@ body{
   top: 0;
   left: 0;
   right: 0;
-  min-height: 100vh;
-  margin: 0;
+  bottom: 0;
 }
 .slider-destination {
   display: flex;
   flex-direction: column;
   margin-top: 250px;
   margin-left: 150px;
+  min-height: 100vh;
 }
 .slider-title-destination {
   margin-bottom: 20px;
@@ -250,7 +249,6 @@ body{
   left: 0;
   right: 0;
   bottom: 0;
-  margin: 0;
 }
 .menu-number{
   font-size: 28px;
@@ -264,6 +262,7 @@ body{
   flex-direction: column;
   text-align: left;
   margin-left: 150px;
+  min-height: 100vh;
 }
 .custom-slide {
   display: flex;
@@ -323,7 +322,6 @@ height: 600px;
   left: 0;
   right: 0;
   bottom: 0;
-  margin: 0;
 }
 .container-technology{
   display: flex;
@@ -779,13 +777,4 @@ width: 100%;
 }
 .home-btn-explore:hover{
   outline: none;
-}
-.crew-slide-image{
-  object-fit: contain;
-  height: 370px;
-}
-.link:active {
-  text-decoration: underline;
-  text-underline-offset: 10px;
-}
 }
