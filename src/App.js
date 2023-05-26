@@ -15,6 +15,7 @@ import line from './assets/home/Rectangle.png';
 import DestinationComponent from './Components/DestinationComponent';
 import Cart from './Cart/Cart';
 
+
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 

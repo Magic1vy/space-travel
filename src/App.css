@@ -3,12 +3,13 @@
   src: url("/src/assets/fonts/Reforma1918-Blanca.otf");
 }
 body{
-  background-color: #24262F;
+  background-color: #171717;
+  margin: 0;
 }
 .App{
   background: url("/src/assets/background-home-desktop.jpg") no-repeat center center fixed; 
   background-size: cover;
-  position: fixed; 
+  position: absolute; 
   top: 0;
   left: 0;
   right: 0;
@@ -121,20 +122,23 @@ body{
   color: #0B0D17;
   border: none;
   position: relative;
+  transition: outline 0.5s linear;
 }
 .home-btn-explore:hover{
-  outline: 64px solid #24262F;
+  outline: 64px solid rgba(255, 255, 255, 0.196);
+
 } 
 .destinationComponent{
   background-image: url("/src/assets/destination/background-destination-desktop.jpg"); 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  min-height: 100vh;
+  margin: 0;
 }
 .slider-destination {
   display: flex;
@@ -241,11 +245,12 @@ body{
 .crewComponent{
   background: url("/src/assets/crew/background-crew-desktop.jpg") no-repeat center center;
   background-size: cover;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  margin: 0;
 }
 .menu-number{
   font-size: 28px;
@@ -313,11 +318,12 @@ height: 600px;
 .technologyComponent{
   background: url("/src/assets/technology/background-technology-desktop.jpg") no-repeat center center;
   background-size: cover;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+  margin: 0;
 }
 .container-technology{
   display: flex;
@@ -365,12 +371,12 @@ height: 600px;
   display: none;
 }
 .cartComponent{
-  background: url("https://images.unsplash.com/photo-1514483127413-f72f273478c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80") no-repeat center center ;
+  background: url("./assets/destination/background-destination-desktop.jpg") no-repeat top center ;
   background-size: cover;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 100vh;
 }
 .cartItemComponent{
 display: flex;
@@ -550,9 +556,6 @@ width: 100%;
   margin-left: auto;
   margin-top: 150px;
 }
-.custom-slide {
-  flex-direction: column;
-}
 .slide-text {
   width: 550px;
 }
@@ -570,6 +573,7 @@ width: 100%;
 .crew-slide-image {
   width: 100%;
   height: auto;
+
 }
 .carousel .slider-wrapper.axis-horizontal .slider .custom-slide {
   flex-direction: column;
@@ -712,14 +716,8 @@ width: 100%;
 .slide-text{
     width: 80%;
 }
-.crew-slide-image{
-  height: 400px;
-}
 .carousel .control-dots {
   top: 300px;
-}
-.custom-slide{
-  flex-direction: column-reverse;
 }
 .desktop-hidden{
   height: 170px;
@@ -764,16 +762,30 @@ width: 100%;
 }
 .technologyComponent{
   background-image: url('./assets/technology/background-technology-mobile.jpg');
+  overflow: hidden;
 }
 .crewComponent{
   background-image: url("./assets/crew/background-crew-mobile.jpg");
+  overflow: hidden;
 }
 .destinationComponent{
   background-image: url("./assets/destination/background-destination-mobile.jpg");
+  overflow: hidden;
 }
 
 .headingThree{
   width: 100%;
   margin-left: 6px;
+}
+.home-btn-explore:hover{
+  outline: none;
+}
+.crew-slide-image{
+  object-fit: contain;
+  height: 370px;
+}
+.link:active {
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 }
