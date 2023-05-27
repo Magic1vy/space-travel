@@ -15,6 +15,7 @@ body{
   right: 0;
   bottom: 0;
   min-height: 100vh;
+  overflow: hidden;
 }
 .desktop-nav{
   position: fixed; 
@@ -137,6 +138,7 @@ body{
   left: 0;
   right: 0;
   bottom: 0;
+  overflow: hidden;
 }
 .slider-destination {
   display: flex;
@@ -249,6 +251,7 @@ body{
   left: 0;
   right: 0;
   bottom: 0;
+  overflow: hidden;
 }
 .menu-number{
   font-size: 28px;
@@ -322,6 +325,7 @@ height: 600px;
   left: 0;
   right: 0;
   bottom: 0;
+  overflow: hidden;
 }
 .container-technology{
   display: flex;
